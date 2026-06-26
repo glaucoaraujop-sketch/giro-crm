@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Proposta — Giro · Gestão para Revenda de Seminovos</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme:{ extend:{ colors:{ brand:{ 50:'#eef2ff',100:'#e0e7ff',200:'#c7d2fe',600:'#4f46e5',700:'#4338ca',800:'#3730a3',900:'#312e81' } } } } }
+</script>
+<style>
+  @page{ size:A4; margin:0; }
+  body{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .page{ width:210mm; min-height:297mm; padding:18mm 16mm; margin:0 auto; background:white; }
+  @media print{ .page{ box-shadow:none; margin:0; } .noprint{ display:none; } }
+  @media screen{ body{ background:#e2e8f0; } .page{ box-shadow:0 6px 30px rgba(0,0,0,.12); margin:16px auto; } }
+</style>
+</head>
+<body class="text-slate-800">
+
+<div class="noprint sticky top-0 bg-brand-800 text-white px-5 py-2 text-sm flex justify-between items-center z-50">
+  <span>Proposta comercial · Giro</span>
+  <button onclick="window.print()" class="bg-white text-brand-800 rounded-lg px-3 py-1 font-semibold">Imprimir / Salvar PDF</button>
+</div>
+
+<!-- PÁGINA 1 — CAPA -->
+<section class="page flex flex-col justify-between">
+  <div>
+    <div class="flex items-center gap-3">
+      <div class="w-12 h-12 rounded-2xl bg-brand-600 grid place-items-center text-white text-2xl font-bold">G</div>
+      <div><p class="text-2xl font-bold text-brand-800">Giro</p>
+        <p class="text-slate-500 text-sm">Gestão para Revenda de Seminovos</p></div>
+    </div>
+    <div class="mt-28">
+      <p class="text-brand-600 font-semibold tracking-wide">PROPOSTA COMERCIAL</p>
+      <h1 class="text-4xl font-bold leading-tight mt-2">O sistema que faz<br>seu estoque <span class="text-brand-600">girar</span>.</h1>
+      <p class="text-slate-500 mt-4 max-w-md">Menos carro encalhado, nenhum lead esfriando e a margem real de cada
+        venda na palma da mão — feito pra revenda de rua, no celular.</p>
+    </div>
+  </div>
+  <div class="border-t border-slate-200 pt-4 text-sm text-slate-500 flex justify-between">
+    <span>Preparado para: <b class="text-slate-700">Premium Multimarcas — Ubá-MG</b></span>
+    <span>Glauco Araújo · glaucoaraujop@gmail.com</span>
+  </div>
+</section>
+
+<!-- PÁGINA 2 — O PROBLEMA -->
+<section class="page">
+  <p class="text-brand-600 font-semibold">01 · O DIAGNÓSTICO</p>
+  <h2 class="text-2xl font-bold mt-1">O problema nunca é vender. É o que acontece em volta.</h2>
+  <p class="text-slate-500 mt-2">Quem vende carro há mais de 10 anos sabe: cliente não falta. O que sangra o resultado é o resto.</p>
+
+  <div class="mt-6 space-y-3">
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">🅿️</div><div><b>Estoque que não gira.</b> Carro parado é dinheiro dormindo e perdendo valor. Quantos dias cada um está no pátio? Ninguém sabe de cabeça.</div></div>
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">🧾</div><div><b>Custo total invisível.</b> Você sabe quanto pagou, mas esquece funilaria + revisão + documentação. A margem "de cabeça" não é a margem real.</div></div>
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">❄️</div><div><b>Lead que esfria.</b> O cliente do sábado que disse "vou pensar" cai no caderninho e some. Semana que vem comprou na concorrência.</div></div>
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">🔁</div><div><b>Avaliação de troca no feeling.</b> Errou o usado do cliente? Come a margem ou perde a venda.</div></div>
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">📑</div><div><b>Financiamento e documentação espalhados.</b> Simulação em 3 bancos, gravame, débito de IPVA que aparece depois. Tudo acompanhado de cabeça.</div></div>
+    <div class="flex gap-3 p-3 rounded-xl bg-slate-50">
+      <div class="text-2xl">📊</div><div><b>Sem números.</b> Qual o giro do estoque? A margem média? Qual canal traz cliente que fecha? No escuro.</div></div>
+  </div>
+</section>
+
+<!-- PÁGINA 3 — A SOLUÇÃO -->
+<section class="page">
+  <p class="text-brand-600 font-semibold">02 · A SOLUÇÃO</p>
+  <h2 class="text-2xl font-bold mt-1">Três coisas que mudam o seu mês.</h2>
+
+  <div class="mt-6 grid grid-cols-1 gap-4">
+    <div class="border border-brand-100 rounded-2xl p-4">
+      <p class="font-bold text-brand-700">1 · Margem real e giro na palma da mão</p>
+      <p class="text-slate-600 text-sm mt-1">Cada carro mostra o <b>custo total</b> (compra + despesas), a <b>margem de verdade</b> e os
+        <b>dias no pátio</b>. Carro parado demais? O Giro avisa: <i>"Corolla, 47 dias — encalhado"</i>.</p>
+    </div>
+    <div class="border border-brand-100 rounded-2xl p-4">
+      <p class="font-bold text-brand-700">2 · Nenhum lead esfria + match carro ↔ cliente</p>
+      <p class="text-slate-600 text-sm mt-1">Todo cliente com lembrete de follow-up. E quando entra um carro, o Giro avisa quem estava
+        procurando exatamente aquilo — <i>"Fernando quer hatch até R$ 70 mil → entrou o Onix (95%)"</i> — com a mensagem pronta pro WhatsApp.</p>
+    </div>
+    <div class="border border-brand-100 rounded-2xl p-4">
+      <p class="font-bold text-brand-700">3 · Feito pra revenda de rua</p>
+      <p class="text-slate-600 text-sm mt-1">No celular, simples, em português, na realidade do interior. Da entrada do carro no pátio
+        até a entrega das chaves, com checklist de financiamento, vistoria e documentação.</p>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-emerald-50 border border-emerald-200 rounded-2xl p-4">
+    <p class="font-semibold text-emerald-800">🟢 Seu WhatsApp continua seu</p>
+    <p class="text-sm text-emerald-700 mt-1">No início usamos o modelo <b>Click-to-WhatsApp</b>: o Giro prepara a mensagem e abre o seu
+      WhatsApp normal. Nada fica conectado, nenhum risco de bloqueio, nenhum custo por mensagem.</p>
+  </div>
+</section>
+
+<!-- PÁGINA 4 — PLANOS -->
+<section class="page">
+  <p class="text-brand-600 font-semibold">03 · PLANOS</p>
+  <h2 class="text-2xl font-bold mt-1">Escolha o tamanho da sua loja.</h2>
+
+  <div class="mt-6 space-y-4">
+    <div class="border border-slate-200 rounded-2xl p-4 flex justify-between items-start">
+      <div><p class="font-bold text-lg">Essencial</p>
+        <p class="text-slate-500 text-sm">Estoque com custo/margem, funil, clientes, match, WhatsApp 1 toque, agenda.</p></div>
+      <p class="text-2xl font-bold text-brand-700 whitespace-nowrap">R$ 197<span class="text-sm font-normal text-slate-400">/mês</span></p>
+    </div>
+    <div class="border-2 border-brand-600 rounded-2xl p-4 flex justify-between items-start relative">
+      <span class="absolute -top-3 left-4 bg-brand-600 text-white text-xs px-2 py-0.5 rounded-full">MAIS ESCOLHIDO ⭐</span>
+      <div><p class="font-bold text-lg">Profissional</p>
+        <p class="text-slate-500 text-sm">Tudo do Essencial + WhatsApp integrado/histórico + publicação nos portais (OLX/Webmotors/ML) + relatórios de giro/margem + simulação de financiamento + 500 disparos/mês.</p></div>
+      <p class="text-2xl font-bold text-brand-700 whitespace-nowrap">R$ 347<span class="text-sm font-normal text-slate-400">/mês</span></p>
+    </div>
+    <div class="border border-slate-200 rounded-2xl p-4 flex justify-between items-start">
+      <div><p class="font-bold text-lg">Loja</p>
+        <p class="text-slate-500 text-sm">Tudo do Profissional + equipe de vendedores + metas e comissão por vendedor (+R$ 59 por vendedor extra).</p></div>
+      <p class="text-2xl font-bold text-brand-700 whitespace-nowrap">R$ 597<span class="text-sm font-normal text-slate-400">/mês</span></p>
+    </div>
+  </div>
+
+  <div class="mt-6 bg-brand-50 border border-brand-100 rounded-2xl p-4">
+    <p class="font-semibold text-brand-800">💡 Faz a conta</p>
+    <p class="text-sm text-slate-600 mt-1">A margem de <b>uma única venda</b> de seminovo gira entre R$ 3 mil e R$ 10 mil.
+      O plano Profissional custa R$ 4.164 no ano — <b>meia venda já paga o sistema inteiro</b>.
+      E destravar <b>um</b> carro encalhado paga vários meses de uma vez.</p>
+  </div>
+</section>
+
+<!-- PÁGINA 5 — PILOTO / PRÓXIMO PASSO -->
+<section class="page flex flex-col justify-between">
+  <div>
+    <p class="text-brand-600 font-semibold">04 · COMO COMEÇAMOS</p>
+    <h2 class="text-2xl font-bold mt-1">Você entra como piloto.</h2>
+    <p class="text-slate-500 mt-2">Proposta pra Premium Multimarcas: usar o Giro <b>de graça nos primeiros meses</b>,
+      cadastrando o estoque real. Em troca, seu feedback molda o produto e a loja vira nosso primeiro case.</p>
+
+    <div class="mt-6 space-y-3">
+      <div class="flex gap-3 items-start"><div class="w-7 h-7 rounded-full bg-brand-600 text-white grid place-items-center text-sm font-bold shrink-0">1</div>
+        <p class="text-sm text-slate-600 pt-0.5"><b>Cadastramos seu pátio</b> — cada carro com custo total e despesas, pra você ver a margem real.</p></div>
+      <div class="flex gap-3 items-start"><div class="w-7 h-7 rounded-full bg-brand-600 text-white grid place-items-center text-sm font-bold shrink-0">2</div>
+        <p class="text-sm text-slate-600 pt-0.5"><b>Você usa no dia a dia</b> — funil, follow-up, match e WhatsApp por algumas semanas.</p></div>
+      <div class="flex gap-3 items-start"><div class="w-7 h-7 rounded-full bg-brand-600 text-white grid place-items-center text-sm font-bold shrink-0">3</div>
+        <p class="text-sm text-slate-600 pt-0.5"><b>Ajustamos ao seu jeito</b> e definimos o plano que faz sentido pra continuar.</p></div>
+    </div>
+  </div>
+
+  <div>
+    <div class="bg-brand-800 text-white rounded-2xl p-6 text-center">
+      <p class="text-lg">Vamos fazer seu estoque girar?</p>
+      <p class="text-2xl font-bold mt-1">Glauco Araújo</p>
+      <p class="text-white/70 text-sm">glaucoaraujop@gmail.com</p>
+    </div>
+    <p class="text-center text-xs text-slate-400 mt-4">Giro — Gestão para Revenda de Seminovos · Protótipo navegável disponível para demonstração</p>
+  </div>
+</section>
+
+</body>
+</html>
