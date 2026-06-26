@@ -88,7 +88,9 @@ Clientes → *Registrar intenção de compra* → *Salvar* → aparece na hora o
 |---|---|---|
 | **Essencial** | **R$ 197** | Estoque com custo/margem, funil, clientes, match, **Envio no WhatsApp (1 toque / Click-to-WhatsApp)**, agenda. |
 | **Profissional** ⭐ | **R$ 347** | Tudo do Essencial + **WhatsApp integrado + histórico** + publicação nos portais (OLX/Webmotors/ML) + relatórios de giro/margem + simulação de financiamento + 500 disparos/mês inclusos. |
-| **Loja** | **R$ 597** | Tudo do Profissional + multiusuário (equipe de vendedores) + metas e comissão por vendedor + R$ 59 por vendedor extra. |
+| **Loja** | **R$ 597** | Tudo do Profissional + gestão de equipe (metas e comissão por vendedor) + painel consolidado da loja. |
+
+> **Usuário extra: R$ 89/mês cada — em qualquer plano.** Todo plano inclui **1 usuário**. Cada vendedor/conexão adicional custa R$ 89/mês, independente do plano contratado. É a alavanca de receita que cresce junto com a loja: revenda com 4 vendedores no Profissional = R$ 347 + 3 × R$ 89 = **R$ 614/mês**.
 
 Referência de mercado (gestão de revenda): R$ 100–500/mês (Boom Sistemas, AutoConf, Revenda Mais, AutoGestor, Bndv).
 Sugestão tática: **1º mês grátis** para cadastrar o estoque real e sentir o giro.
